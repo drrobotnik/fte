@@ -1,0 +1,64 @@
+.post {
+  margin: 16px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.post:after {
+  display:table;
+  clear: both;
+  content: " ";
+}
+
+.post__body {
+  -ms-flex: 1;
+    flex: 1;
+    padding: 0 0 0 8px;
+}
+
+.post__body p {
+  margin: 20px 0 0 0;
+}
+
+.post__body p:first-of-type {
+  margin-top: 0;
+}
+
+
+.post__author {
+  margin: 0;
+}
+
+
+.post__text-field {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 100%;
+  border: 1px solid #ccc;
+  line-height: 30px;
+  font-size: 16px;
+  padding: 4px 8px;
+  margin-bottom: 16px;
+}
+
+.post__text-area {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  width: 100%;
+  border: 1px solid #ccc;
+  line-height: 30px;
+  font-size: 16px;
+  padding: 4px 8px;
+  margin-bottom: 16px;
+}
+
+.post__submit-button {
+  padding: 16px;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+}
+
+.post__submit-button:disabled {
+  cursor: not-allowed;
+}

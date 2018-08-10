@@ -1,0 +1,10 @@
+.pagination {
+display: inline-block;
+border: 1px solid rgba(0, 0, 0, 0.1);
+margin: 0 0.5rem 0.5rem 0;
+padding: 0.2rem 0.3rem;
+}
+
+.pagination__is-current {
+  opacity: 0.5;
+}
