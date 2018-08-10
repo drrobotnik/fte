@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "posts-json-server",
+      "script": "npx",
+      "args": "json-server --watch posts.json --port 3100"
+    },
+    {
+      "name": "fte",
+      "script": "yarn",
+      "args": "serve --port 3050"
+    }
+  ]
+}
