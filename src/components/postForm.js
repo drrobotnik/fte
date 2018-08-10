@@ -30,7 +30,7 @@ class PostForm extends Component {
       title, body, username, submissions,
     } = this.state
 
-    Axios.post('http://localhost:3001/posts', {
+    Axios.post('http://localhost:3100/posts', {
       title,
       body,
       username,

@@ -5,7 +5,7 @@ import Post from 'components/post'
 import InfiniteScroll from 'react-infinite-scroller'
 
 //const api = 'https://blog.turbotax.intuit.com/wp-json/wp/v2'
-const api = 'http://localhost:3001/posts'
+const api = 'http://localhost:3100/posts'
 
 
 export default class Home extends React.Component {
